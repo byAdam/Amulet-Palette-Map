@@ -1,0 +1,11 @@
+# Maps all cobblestone stairs to custom cobblestone stairs
+universal_minecraft:stairs<{"material":"cobblestone"} > adam:cobblestone_stairs<{"adam:facing":"$facing","adam;half":"$half"}
+
+# Map all types of slabs into stone blocks
+universal_minecraft:slabs > universal_minecraft:stone
+
+# Converts all wool blocks into terracotta blocks with same colour
+universal_minecraft:wool<* > minecraft:hardened_stained_clay<{"color":"*"}
+
+# Converts all x into y, keeping all the same properties
+adam:x<* > adam:y<*
